@@ -1,89 +1,88 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
+<!doctype html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Estatuto AMELIPAS</title>
+		<style>
+			:root {
+				--maxw: 900px;
+			}
+			html, body { height: 100%; }
+			body {
+				margin: 0 auto;
+				padding: 24px 20px 48px;
+				max-width: var(--maxw);
+				font-family: "Times New Roman", Times, serif;
+				line-height: 1.4;
+				color: #222;
+				background: #fff;
+			}
+			h1, h2 { text-align: center; margin: 0; }
+			h1 { font-size: 1.8rem; margin-top: 0; margin-bottom: .75rem; }
+			h2 { font-size: 1.2rem; margin-bottom: .25rem; font-weight: 500; }
+			.cnpj { text-align: center; font-size: .9rem; color: #444; margin: 1rem 0 2rem; }
+			h3.capitulo {
+				text-transform: uppercase;
+				text-align: center;
+				margin: 1.25rem 0 .5rem;
+				font-size: 1rem;
+				letter-spacing: .02em;
+			}
+			p { margin: .5rem 0; }
+			p.artigo > strong, p.paragrafo > strong { margin-right: .5em; }
+			ol { margin: .5rem 0 .75rem 1.25rem; padding: 0; }
+			ol.alpha { list-style-type: lower-alpha; }
+			ol.roman { list-style-type: upper-roman; }
+			a { color: #0645ad; text-decoration: none; }
+			a:hover { text-decoration: underline; }
+			hr { border: none; border-top: 1px solid #bbb; margin: 1.5rem 0; }
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>ESTATUTO SOCIAL</h1>
+			<h2>Associação de Meliponicultores para Recuperação<br/>e Preservação Ambiental da Serra da Mantiqueira</h2>
+			<div class="cnpj">CNPJ 12.3456.789/0001-00</div>
+		</header>
 
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/12.4.0/firebase-app-compat.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/12.4.0/firebase-auth-compat.js"></script>
-    <script defer src="/__/firebase/12.4.0/firebase-database-compat.js"></script>
-    <script defer src="/__/firebase/12.4.0/firebase-firestore-compat.js"></script>
-    <script defer src="/__/firebase/12.4.0/firebase-functions-compat.js"></script>
-    <script defer src="/__/firebase/12.4.0/firebase-messaging-compat.js"></script>
-    <script defer src="/__/firebase/12.4.0/firebase-storage-compat.js"></script>
-    <script defer src="/__/firebase/12.4.0/firebase-analytics-compat.js"></script>
-    <script defer src="/__/firebase/12.4.0/firebase-remote-config-compat.js"></script>
-    <script defer src="/__/firebase/12.4.0/firebase-performance-compat.js"></script>
-    <!-- 
-      initialize the SDK after all desired features are loaded, set useEmulator to false
-      to avoid connecting the SDK to running emulators.
-    -->
-    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+		<main>
+			<h3 class="capitulo">Capitulo I - Nome, Sede, Fins e Duração</h3>
 
-    <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
-      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
-      }
-    </style>
-  </head>
-  <body>
-    <div id="message">
-      <h2>Welcome</h2>
-      <h1>Firebase Hosting Setup Complete</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
-    </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
+			<p class="artigo"><strong>Artigo 1º</strong> A Associação de Meliponicultores para Recuperação e Preservação Ambiental da Serra da Mantiqueira (de abreviatura AMELIPAS) é uma associação sem fins lucrativos, de prazo indeterminado de duração, com sede e foro na cidade de Delfim Moreira, Estado de Minas Gerais, na [Endereço completo] e endereço eletrônico <a href="https://www.amelipas.org" target="_blank" rel="noopener">www.amelipas.org</a></p>
 
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const loadEl = document.querySelector('#load');
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.firestore().doc('/foo/bar').get().then(() => { });
-        // firebase.functions().httpsCallable('yourFunction')().then(() => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        // firebase.analytics(); // call to activate
-        // firebase.analytics().logEvent('tutorial_completed');
-        // firebase.performance(); // call to activate
-        //
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+			<p class="artigo"><strong>Artigo 2º</strong> A Associação tem por finalidade promover e fomentar o desenvolvimento ecológico sustentável, a conservação e recuperação ambiental e a capacitação agroecológica dos associados e comunidade, por meio das seguintes atividades:</p>
+			<ol class="alpha">
+				<li>Fomentar a meliponicultura (criação de abelhas nativas sem ferrão) como ferramenta de conservação e recuperação ambiental e geração de renda, de acordo com as diretrizes estabelecidas na Lei nº 14.639/2023;</li>
+				<li>Desenvolver e implementar programas de Pagamento por Serviços Ambientais (PSA), conforme Lei nº 14.119/2021, com ênfase na proteção e recuperação de nascentes, áreas degradadas, e demais áreas de interesse social caracterizadas pela Lei nº 12.651/2012;</li>
+				<li>Oferecer cursos e palestras de educação ambiental, focados na flora nativa e seus polinizadores, visando a conscientização ecológica, o manejo sustentável de pastagens, capoeiras e áreas de mata, tendo como público alvo a comunidade e as escolas;</li>
+				<li>Criar e manter um viveiro de mudas nativas e banco de sementes para apoiar ações de reflorestamento e recuperação ecológica;</li>
+				<li>Adquirir e operar maquinário (tratores, escavadeiras, minitratores) para a execução de serviços de conservação do solo e retenção de água, particularmente a construção de terraços em curva de nível, açudes e barragens em áreas estratégicas.</li>
+			</ol>
 
-        try {
-          let app = firebase.app();
-          let features = [
-            'auth', 
-            'database', 
-            'firestore',
-            'functions',
-            'messaging', 
-            'storage', 
-            'analytics', 
-            'remoteConfig',
-            'performance',
-          ].filter(feature => typeof app[feature] === 'function');
-          loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
-        }
-      });
-    </script>
-  </body>
-</html>
+			<p class="paragrafo"><strong>§ 1º</strong> Para consecução de suas atividades, a Associação irá concorrer a editais e processos seletivos públicos e privados para a captação de recursos destinados a projetos de reflorestamento e serviços ambientais.</p>
+
+			<p class="paragrafo"><strong>§ 2º</strong> A Associação poderá firmar parcerias com outras instituições, públicas ou privadas, visando o fortalecimento de suas ações e a ampliação de seus resultados.</p>
+
+			<h3 class="capitulo">Capitulo II - Definições e ditrizes</h3>
+
+			<p class="artigo"><strong>§ 4º</strong> Para os efeitos deste Estatuto, entende-se por:</p>
+			<ol class="roman">
+				<li>Pasto de abelhas: área de vegetação nativa ou cultivada, destinada à alimentação de abelhas nativas sem ferrão.</li>
+				<li>PREX: valor a ser pago por cada décimo de hectare recuperado (0,1 ha), conforme definido no regimento interno da Associação.</li>
+				<li>Manejo sustentável: conjunto de práticas que visam a conservação e recuperação ambiental, promovendo o equilíbrio ecológico e a sustentabilidade dos recursos naturais.</li>
+			</ol>
+
+			<p class="paragrafo"><strong>§ 3º</strong> O pasto para abelhas é conceito central em torno do qual os programas de recuperação ambiental da Associação serão estruturados, uma vez que promove a geração de renda dos meliponicultores em sinergia com a conservação da flora nativa e a sustentabilidade dos ecossistemas locais.</p>
+
+			<p class="paragrafo"><strong>§ 3º</strong> A formação do banco de sementes de espécies nativas realizar-se-á, sempre que possível, adquirindo-as da comunidade local, de forma a estimular a criação deste nicho de mercado e priorizar a diversidade genética local.</p>
+
+			<p class="paragrafo"><strong>§ 4º</strong> O valor de PSA do hectare recuperado será publicado no regimento interno da Associação, a será revisto anualmente conforme índice oficial de inflação.</p>
+		</main>
+
+		<footer>
+			<hr />
+			<p style="font-size:.9rem; color:#555;">Documento convertido de LaTeX para HTML — AMELIPAS.</p>
+		</footer>
+	</body>
+	</html>
