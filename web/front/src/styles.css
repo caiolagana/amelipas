@@ -1,4 +1,8 @@
 /* Global styles */
+:root {
+  --nav-height: 4.25rem; /* Global navigation height variable */
+}
+
 * {
   margin: 0;
   padding: 0;

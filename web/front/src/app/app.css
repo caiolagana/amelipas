@@ -1,6 +1,6 @@
 /* Main content layout */
 .main-content {
-  margin-top: 80px; /* Account for fixed navigation height */
-  min-height: calc(100vh - 80px);
+  margin-top: var(--nav-height, 4.25rem);
+  min-height: calc(100vh - var(--nav-height, 4.25rem));
   background-color: #f5f5f5;
 }
