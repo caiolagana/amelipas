@@ -1,0 +1,214 @@
+.page-container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero-section {
+  text-align: center;
+  margin-bottom: 4rem;
+  padding: 3rem 0;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 12px;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  opacity: 0.9;
+}
+
+.hero-description {
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+  opacity: 0.8;
+}
+
+.membros-section h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: #333;
+}
+
+.table-container {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  overflow-x: auto;
+}
+
+.membros-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.membros-table th {
+  background: #667eea;
+  color: white;
+  padding: 1rem;
+  text-align: left;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.membros-table th:first-child {
+  width: 80px;
+  text-align: center;
+}
+
+.membros-table th:nth-child(2) {
+  width: 35%;
+}
+
+.membros-table th:nth-child(3) {
+  width: auto;
+}
+
+.membros-table td {
+  padding: 1rem;
+  border-bottom: 1px solid #e0e0e0;
+  vertical-align: middle;
+}
+
+.membros-table tbody tr:hover {
+  background-color: #f8f9fa;
+  transition: background-color 0.2s ease;
+}
+
+.membros-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.avatar-cell {
+  text-align: center !important;
+  padding: 0.75rem !important;
+}
+
+.avatar-placeholder {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.avatar-initials {
+  color: white;
+  font-weight: 600;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+}
+
+.name-cell {
+  color: #333;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.position-cell {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .page-container {
+    padding: 1rem;
+  }
+  
+  .hero-section {
+    padding: 2rem 1rem;
+  }
+  
+  .hero-section h1 {
+    font-size: 2.2rem;
+  }
+  
+  .membros-section h2 {
+    font-size: 2rem;
+  }
+  
+  .table-container {
+    margin: 0 -1rem;
+    border-radius: 0;
+  }
+  
+  .membros-table {
+    font-size: 0.85rem;
+  }
+  
+  .membros-table th,
+  .membros-table td {
+    padding: 0.75rem 0.5rem;
+  }
+  
+  .avatar-placeholder {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .avatar-initials {
+    font-size: 0.8rem;
+  }
+  
+  .name-cell {
+    font-size: 0.9rem;
+  }
+  
+  .position-cell {
+    font-size: 0.85rem;
+  }
+  
+  /* Stack table for very small screens */
+  @media (max-width: 480px) {
+    .membros-table thead {
+      display: none;
+    }
+    
+    .membros-table,
+    .membros-table tbody,
+    .membros-table tr,
+    .membros-table td {
+      display: block;
+    }
+    
+    .membros-table tr {
+      border: 1px solid #e0e0e0;
+      margin-bottom: 1rem;
+      border-radius: 8px;
+      padding: 1rem;
+      background: white;
+    }
+    
+    .membros-table td {
+      border: none;
+      padding: 0.5rem 0;
+      text-align: center;
+    }
+    
+    .avatar-cell {
+      margin-bottom: 0.5rem;
+    }
+    
+    .name-cell {
+      font-size: 1.1rem;
+      margin-bottom: 0.25rem;
+    }
+  }
+}

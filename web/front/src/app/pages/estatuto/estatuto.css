@@ -1,0 +1,136 @@
+.page-container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Hero section with gradient background like home page */
+.hero-section {
+  text-align: center;
+  margin-bottom: 4rem;
+  padding: 3rem 0;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 12px;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  opacity: 0.9;
+}
+
+.cnpj {
+  font-size: 1.2rem;
+  opacity: 0.8;
+  margin: 1rem 0 0;
+}
+
+/* Content section with modern styling */
+.content-section {
+  background: white;
+  padding: 3rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Chapter headings */
+h3.capitulo {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 3rem 0 1.5rem;
+  font-size: 1.4rem;
+  letter-spacing: 0.05em;
+  color: #667eea;
+  font-weight: 600;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+/* Article and paragraph styling */
+p {
+  margin: 1rem 0;
+  font-size: 1.05rem;
+}
+
+p.artigo > strong, 
+p.paragrafo > strong {
+  margin-right: 0.5em;
+  color: #333;
+  font-weight: 600;
+}
+
+/* Lists styling */
+ol {
+  margin: 1rem 0 1.5rem 2rem;
+  padding: 0;
+}
+
+ol.alpha {
+  list-style-type: lower-alpha;
+}
+
+ol.roman {
+  list-style-type: upper-roman;
+}
+
+ol li {
+  margin-bottom: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+/* Links */
+a {
+  color: #667eea;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #5a6fd8;
+}
+
+/* Dividers */
+hr {
+  border: none;
+  border-top: 2px solid #e0e0e0;
+  margin: 2rem 0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .page-container {
+    padding: 1rem;
+  }
+  
+  .hero-section {
+    padding: 2rem 1rem;
+  }
+  
+  .hero-section h1 {
+    font-size: 2.2rem;
+  }
+  
+  .content-section {
+    padding: 2rem 1.5rem;
+  }
+  
+  h3.capitulo {
+    font-size: 1.2rem;
+    margin: 2rem 0 1rem;
+  }
+  
+  ol {
+    margin-left: 1.5rem;
+  }
+}
