@@ -1,6 +1,9 @@
 /* Global styles */
 :root {
   --nav-height: 4.25rem; /* Global navigation height variable */
+  --color-p: #666;
+  --color-h2: #333;
+  --color-h3: #667eea;
 }
 
 * {
@@ -27,4 +30,21 @@ html, body {
 /* Ensure router-outlet content has proper spacing */
 router-outlet + * {
   display: block;
+}
+
+/* Global link style for AMELIPAS */
+.amelipas-link {
+  color: #667eea;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.amelipas-link:hover {
+  color: #5a6fd8;
+  text-decoration: underline;
+}
+
+.amelipas-link:active {
+  color: #4c63d2;
 }

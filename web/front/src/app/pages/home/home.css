@@ -42,7 +42,7 @@
   text-align: left;
   font-size: 2.5rem;
   margin-bottom: 3rem;
-  color: #333;
+  color: var(--color-h2);
 }
 
 .features-grid {
@@ -65,13 +65,13 @@
 }
 
 .feature-card h3 {
-  color: #667eea;
+  color: var(--color-h3);
   margin-bottom: 1rem;
   font-size: 1.5rem;
 }
 
 .feature-card p {
-  color: #666;
+  color: var(--color-p);
   line-height: 1.6;
   font-size: 1.1rem;
 }
