@@ -76,6 +76,17 @@
   font-size: 1.1rem;
 }
 
+.feature-logo {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 1.5rem;
+  object-fit: contain;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Responsive design for mobile devices */
 @media (max-width: 768px) {
   .hero-content h1 {
@@ -103,6 +114,11 @@
   .features-grid {
     grid-template-columns: 1fr;
     gap: 1.5rem;
+  }
+  
+  .feature-logo {
+    max-width: 150px;
+    margin-bottom: 1rem;
   }
 }
 
@@ -135,5 +151,10 @@
   
   .feature-card p {
     font-size: 1rem;
+  }
+  
+  .feature-logo {
+    max-width: 120px;
+    margin-bottom: 0.75rem;
   }
 }
