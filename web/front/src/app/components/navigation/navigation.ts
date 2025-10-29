@@ -9,4 +9,13 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
 })
 export class Navigation {
   appTitle = 'AMELIPAS';
+  isMobileMenuOpen = false;
+
+  toggleMobileMenu(): void {
+    this.isMobileMenuOpen = !this.isMobileMenuOpen;
+  }
+
+  closeMobileMenu(): void {
+    this.isMobileMenuOpen = false;
+  }
 }

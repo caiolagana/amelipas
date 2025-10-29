@@ -75,3 +75,65 @@
   line-height: 1.6;
   font-size: 1.1rem;
 }
+
+/* Responsive design for mobile devices */
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 1.8rem;
+    line-height: 1.2;
+  }
+  
+  .hero-content {
+    bottom: 8%;
+    right: 4%;
+  }
+  
+  .page-container {
+    padding: 1rem;
+  }
+  
+  .features-section h2 {
+    font-size: 2rem;
+  }
+  
+  .feature-card {
+    padding: 1.5rem;
+  }
+  
+  .features-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-content h1 {
+    font-size: 1.2rem;
+    line-height: 1.1;
+  }
+  
+  .hero-content {
+    bottom: 6%;
+    right: 3%;
+  }
+  
+  .page-container {
+    padding: 0.75rem;
+  }
+  
+  .features-section h2 {
+    font-size: 1.6rem;
+  }
+  
+  .feature-card {
+    padding: 1rem;
+  }
+  
+  .feature-card h3 {
+    font-size: 1.3rem;
+  }
+  
+  .feature-card p {
+    font-size: 1rem;
+  }
+}

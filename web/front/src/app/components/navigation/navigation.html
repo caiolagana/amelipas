@@ -5,18 +5,23 @@
         <img src="assets/images/amelipas.svg" alt="AMELIPAS Logo" class="brand-logo">
       </a>
     </div>
-    <ul class="nav-menu">
+    <button class="mobile-menu-toggle" (click)="toggleMobileMenu()" [class.active]="isMobileMenuOpen">
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+    </button>
+    <ul class="nav-menu" [class.mobile-open]="isMobileMenuOpen">
       <li class="nav-item">
-        <a routerLink="/estatuto" routerLinkActive="active" class="nav-link">Estatuto</a>
+        <a routerLink="/estatuto" routerLinkActive="active" class="nav-link" (click)="closeMobileMenu()">Estatuto</a>
       </li>
       <li class="nav-item">
-        <a routerLink="/membros" routerLinkActive="active" class="nav-link">Membros</a>
+        <a routerLink="/membros" routerLinkActive="active" class="nav-link" (click)="closeMobileMenu()">Membros</a>
       </li>
       <li class="nav-item">
-        <a routerLink="/contratos" routerLinkActive="active" class="nav-link">Contratos</a>
+        <a routerLink="/contratos" routerLinkActive="active" class="nav-link" (click)="closeMobileMenu()">Contratos</a>
       </li>
       <li class="nav-item">
-        <a routerLink="/contato" routerLinkActive="active" class="nav-link">Fale conosco</a>
+        <a routerLink="/contato" routerLinkActive="active" class="nav-link" (click)="closeMobileMenu()">Fale conosco</a>
       </li>
     </ul>
   </div>
