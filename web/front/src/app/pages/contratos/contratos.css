@@ -8,7 +8,7 @@
   text-align: center;
   margin-bottom: 4rem;
   padding: 3rem 0;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, var(--color-h3) 0%, #764ba2 100%);
   color: white;
   border-radius: 12px;
 }
@@ -55,7 +55,7 @@
 }
 
 .contratos-table th {
-  background: #667eea;
+  background: var(--color-h3);
   color: white;
   padding: 1rem;
   text-align: left;
